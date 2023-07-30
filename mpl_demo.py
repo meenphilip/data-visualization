@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 # Add styles
 plt.style.use("ggplot")
 
-plt.xkcd()
+# plt.xkcd()
 
 # Median Developer Salaries by Age
 # x - axis
@@ -38,5 +38,8 @@ plt.legend()
 
 # Add pading
 plt.tight_layout()
+
+# save as PNG in current dir
+plt.savefig("plot.png")
 
 plt.show()
